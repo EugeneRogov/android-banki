@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/main" />
+
+    <item
+        android:id="@+id/catalog"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/catalog" />
+
+    <item
+        android:id="@+id/insurance"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/insurance" />
+
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/news" />
+
+    <item
+        android:id="@+id/myApplications"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/myApplications" />
+
+</menu>

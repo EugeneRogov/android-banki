@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "476245575234",
+    "project_id": "banki-ee176",
+    "storage_bucket": "banki-ee176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476245575234:android:7b21378f6cf54b77cb4fdb",
+        "android_client_info": {
+          "package_name": "com.touchin.banki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476245575234-6mjrln1jdeirn0misd0imhelmqh7jgph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFuiUVRbJjIFIvHWsy6C1gOEJmrMeCgO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476245575234-6mjrln1jdeirn0misd0imhelmqh7jgph.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "476245575234-6t1a1gvsdbng77mmaoaqqpqm7craiqgl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.touchin.banki"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

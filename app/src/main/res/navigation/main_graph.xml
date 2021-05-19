@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="ru.banki.ui.main.Main"
+        android:label="Main"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_main_to_reviewInApp"
+            app:destination="@id/reviewInApp" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/catalog"
+        android:name="ru.banki.ui.catalog.Catalog"
+        android:label="Catalog"
+        tools:layout="@layout/catalog_fragment" />
+
+    <fragment
+        android:id="@+id/insurance"
+        android:name="ru.banki.ui.insurance.Insurance"
+        android:label="Catalog"
+        tools:layout="@layout/insurance_fragment" />
+
+    <fragment
+        android:id="@+id/news"
+        android:name="ru.banki.ui.news.News"
+        android:label="News"
+        tools:layout="@layout/news_fragment" />
+
+    <fragment
+        android:id="@+id/myApplications"
+        android:name="ru.banki.ui.myApplications.MyApplications"
+        android:label="MyApplications"
+        tools:layout="@layout/my_applications_fragment" />
+
+    <dialog
+        android:id="@+id/reviewInApp"
+        android:name="ru.banki.ui.reviewInApp.ReviewInApp"
+        android:label="ReviewInApp"
+        tools:layout="@layout/review_in_app_fragment"/>
+
+</navigation>

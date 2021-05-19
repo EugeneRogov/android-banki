@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Banki.ru</string>
+    <string name="like_app">Нравится приложение Банки.ру?</string>
+    <string name="tap_bar">Нажмите на звездочку, что бы оценить его в Google Play</string>
+    <string name="send">Отправить</string>
+    <string name="main">Главная</string>
+    <string name="catalog">Каталог</string>
+    <string name="insurance">Страхование</string>
+    <string name="news">Новости</string>
+    <string name="myApplications">Мои заявки</string>
+</resources>
