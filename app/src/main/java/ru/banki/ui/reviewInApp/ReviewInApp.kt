@@ -4,11 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.viewModels
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import ru.banki.R
 
-class ReviewInApp : DialogFragment() {
+class ReviewInApp : BottomSheetDialogFragment() {
 
     private val viewModel: ReviewInAppViewModel by viewModels()
 
