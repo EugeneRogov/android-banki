@@ -19,4 +19,7 @@
     <color name="day_night">#000000</color>
     <color name="back_arrow">#757575</color>
 
+    <color name="rating_bar">#F48100</color>
+    <color name="rating_bar1">#EABC88</color>
+
 </resources>
