@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.RatingBar
 import android.widget.Toast
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import ru.banki.R
 import ru.banki.databinding.ReviewInAppFragmentBinding
@@ -30,5 +31,10 @@ class ReviewInApp : BottomSheetDialogFragment() {
                     4, 5 -> Toast.makeText(requireContext(), "2", Toast.LENGTH_SHORT).show()
                 }
             }
+
+        binding.btnLater.setOnClickListener { findNavController().popBackStack() }
+
+        binding.btnSend.setOnClickListener {  }
+
     }
 }
