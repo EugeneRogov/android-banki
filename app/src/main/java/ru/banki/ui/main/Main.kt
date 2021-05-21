@@ -27,7 +27,9 @@ class Main : Fragment(R.layout.main_fragment) {
 
         })
 
-        findNavController().navigate(R.id.action_main_to_reviewInApp)
+//        findNavController().navigate(R.id.action_main_to_reviewInApp)
+
+        findNavController().navigate(R.id.action_main_to_reviewInAppFinish)
 
 
     }

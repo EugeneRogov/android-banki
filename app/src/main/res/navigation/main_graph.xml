@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_main_to_reviewInApp"
             app:destination="@id/reviewInApp" />
+        <action
+            android:id="@+id/action_main_to_reviewInAppFinish"
+            app:destination="@id/reviewInAppFinish" />
     </fragment>
 
     <fragment
@@ -43,6 +46,13 @@
         android:id="@+id/reviewInApp"
         android:name="ru.banki.ui.reviewInApp.ReviewInApp"
         android:label="ReviewInApp"
-        tools:layout="@layout/review_in_app_fragment"/>
+        tools:layout="@layout/review_in_app_fragment">
+
+    </dialog>
+    <dialog
+        android:id="@+id/reviewInAppFinish"
+        android:name="ru.banki.ui.reviewInApp.ReviewInAppFinish"
+        android:label="ReviewInAppFinish"
+        tools:layout="@layout/review_in_app_finish_fragment"/>
 
 </navigation>

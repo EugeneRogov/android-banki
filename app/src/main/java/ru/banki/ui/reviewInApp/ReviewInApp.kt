@@ -34,7 +34,10 @@ class ReviewInApp : BottomSheetDialogFragment() {
 
         binding.btnLater.setOnClickListener { findNavController().popBackStack() }
 
-        binding.btnSend.setOnClickListener {  }
+        binding.btnSend.setOnClickListener {
+            findNavController().popBackStack()
+
+        }
 
     }
 }

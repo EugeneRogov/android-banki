@@ -9,4 +9,6 @@
     <string name="insurance">Страхование</string>
     <string name="news">Новости</string>
     <string name="myApplications">Мои заявки</string>
+    <string name="review_sent">Ваш отзыв отправлен!</string>
+    <string name="thanks_better">Спасибо, что делаете нас лучше</string>
 </resources>
