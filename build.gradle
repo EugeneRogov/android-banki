@@ -1,18 +1,23 @@
 buildscript {
     ext {
-        kotlin_version = '1.5.0'
-        firebase_bom = '28.0.1'
+        kotlin_version = '1.9.24'
+        kotlin_coroutines_version = '1.8.1'
+        retrofit_version = '2.11.0'                     // https://square.github.io/retrofit/
+        okhttp_version = '4.12.0'                       // https://square.github.io/okhttp/
+        gson_version = '2.11.0'                         // https://github.com/google/gson
+        firebase_bom = '33.2.0'
+        hilt_version = '2.52'                           // https://developer.android.com/codelabs/android-hilt?hl=fr#0
+        glide_version = '4.16.0'                        // https://github.com/bumptech/glide
     }
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.1'
-        classpath 'com.google.gms:google-services:4.3.8'
+        classpath 'com.android.tools.build:gradle:8.5.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
-        classpath "com.google.dagger:hilt-android-gradle-plugin:2.35.1"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.7.7"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
     }
 }
 
