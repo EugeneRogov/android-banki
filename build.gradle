@@ -2,6 +2,11 @@ buildscript {
     ext {
         kotlin_version = '1.9.24'
         kotlin_coroutines_version = '1.8.1'
+        ktx_core_version = '1.13.1'
+        preference_ktx_version = '1.2.1'
+        junit_version = '4.13.2'
+        junit_androidx_version = '1.2.1'
+        espresso_core_version = '3.6.1'
         retrofit_version = '2.11.0'                     // https://square.github.io/retrofit/
         okhttp_version = '4.12.0'                       // https://square.github.io/okhttp/
         gson_version = '2.11.0'                         // https://github.com/google/gson

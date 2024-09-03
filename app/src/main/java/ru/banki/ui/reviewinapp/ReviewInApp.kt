@@ -1,4 +1,4 @@
-package ru.banki.ui.reviewInApp
+package ru.banki.ui.reviewinapp
 
 import android.os.Bundle
 import android.view.LayoutInflater

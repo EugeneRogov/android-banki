@@ -1,4 +1,4 @@
-package ru.banki.ui.reviewInApp
+package ru.banki.ui.reviewinapp
 
 interface ReviewInApState {
     fun inProgress()
