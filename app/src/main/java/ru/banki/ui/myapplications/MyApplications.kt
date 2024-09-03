@@ -1,4 +1,4 @@
-package ru.banki.ui.myApplications
+package ru.banki.ui.myapplications
 
 import android.os.Bundle
 import android.view.View

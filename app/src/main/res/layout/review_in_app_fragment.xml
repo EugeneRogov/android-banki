@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="ru.banki.ui.reviewInApp.ReviewInAppViewModel" />
+            type="ru.banki.ui.reviewinapp.ReviewInAppViewModel" />
     </data>
 
     <androidx.core.widget.NestedScrollView

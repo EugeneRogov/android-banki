@@ -1,18 +1,13 @@
-package ru.banki.ui.myApplications
+package ru.banki.ui.reviewinapp
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import ru.banki.ui.BaseViewModel
-import javax.inject.Inject
 
-@HiltViewModel
-class MyApplicationsViewModel @Inject constructor(
-
-) : BaseViewModel() {
+class ReviewInAppViewModel : ViewModel() {
 
     private var feedbackLiveData = MutableLiveData<String>()
 
